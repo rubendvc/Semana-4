@@ -1,0 +1,14 @@
+
+nu=int(input("ingrese un numero : "))
+if nu<2:
+    print("el numero que usted ingres tiene que ser mayor a 1 ")
+else:
+    for n in range(2,nu):
+        if nu%n==0:
+            print("el numero no es primo")
+            break   
+        else :
+            print(f"el numero {nu} es primo")
+            break
+
+

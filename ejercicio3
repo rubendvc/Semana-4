@@ -1,0 +1,13 @@
+
+
+while True:
+    n=int(input("ingrese un numero mayor a 1: ")) 
+    if n<=1:
+      print("el numero no es mayor a 1, intente de nuevo")
+    else:
+      break
+for i in range (n,-1,-1):
+      
+      print(i)
+      
+
