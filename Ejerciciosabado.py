@@ -1,3 +1,31 @@
+#Definir funciones
+def sumar (num1,num2):
+        suma = num1 + num2
+        return suma
+
+def restar (num1,num2):
+        resta = num1 - num2
+        return resta
+
+def multi (num1,num2):
+        product = num1 * num2
+        return product
+
+def division (num1,num2):
+        div = num1 / num2
+        return div
+
+def potencia (num1):
+        pot = num1 ** 2
+        return pot
+
+def factorial (num1):
+        limite = 1
+        for n in range(2,num1+1):
+              limite *= n
+        
+              
+
 #SOLICITAR PRIMER NUMERO
 while True:
     num1 = int(input("Ingrese el pirmer numero a evaluar:  "))
@@ -18,3 +46,9 @@ while True:
 
     if opcion > 0 and opcion <= 4:
         num2 = int(input("Ingrese el segundo número a operar: "))
+
+
+
+
+
+    
