@@ -1,0 +1,34 @@
+CARRITO DE COMPRAS:
+
+Desarrollar un programa en Python que solicite al usuario ingresar los datos del cliente: Nombre, Apellidos, Numero de DNI, Teléfono.
+Luego deberá mostrar una lista de productos, mostrando el ID del producto, nombre del producto y precio unitario, pidiendo al usuario que seleccione un producto ingresando su ID, luego de seleccionado debe indicar la cantidad a comprar del producto, esta selección de productos y cantidad de productos debe realizarse hasta que el usuario escriba la palabra "salir".
+Cuando el usuario escriba salir, se le mostrará al usuario un resumen de su compra, con los siguientes datos:
+
+	- Datos del cliente
+	- Productos
+	- Nombre del producto, precio unitario, cantidad, subtotal
+	- Total de la compra
+
+
+INGRESO DE DATOS:
+- Nombre
+- Apellidos
+- DNI
+- Teléfono
+
+MUESTRA DE LISTA DE PRODUCTOS:
+- ID
+- Producto
+- Precio unitario
+
+
+SELECCION:
+- ID
+
+PREGUNTA CANTIDAD DEL PRODUCTO
+VOLVER A SELECCION
+HASTA ESCRIBIR SALIR
+
+MUESTRA FINAL EN PYTHON:
+****
+
